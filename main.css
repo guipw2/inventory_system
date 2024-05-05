@@ -1,14 +1,125 @@
-body {background-color: rgb(255, 255, 255);}
-h1 {background-color: rgb(0, 0, 0);  
+header {
+    background-color: #151515;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; /* Ocupa toda a largura da tela */
+    height: 93px; /* Altura do retângulo */
+    z-index: 2;
+}
+
+h1 {
     color: rgb(255, 255, 255);
-    text-align: initial;
-    font-size: 36px;}
-p  {background-color: black;  
+    position:absolute; 
+    top: -1px; 
+    left: 42px;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 999;
+}
+
+h2 { 
     color: rgb(255, 255, 255);
-    font-size: 15px;}
-h2 {background-color: rgb(0, 0, 0);  
-    color: rgb(255, 255, 255);
-    text-align: initial;
     font-size: 15px;
-    font-style: normal;
-    font-weight: 100;}
+    position:absolute; 
+    top: 43px; 
+    left: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    z-index: 999;
+}
+
+body {  
+    background-color: #ffffff;
+}
+
+.line {
+    background-color: #ffffff;
+    position: fixed;
+    top: 93px;
+    width: 100%;
+    height: 1px;
+    z-index: 3;
+}
+
+.barra {
+    background-color: #151515;
+    position: fixed;
+    top: 92px; 
+    left: 0;
+    height: 100%; /* Ocupa toda a altura da tela */
+    width: 212px; /* Largura desejada do retângulo */
+    z-index: 1;
+}
+
+.divisionsH {
+    background-color: #ffffff;
+    width: 212px;
+    height: 2px;
+    margin-bottom: 12px;
+    z-index: 11;
+}
+
+.divisionsV {
+    background-color: #ffffff;
+    position: fixed;
+    top: 93px;
+    left: 41px;
+    height: 100%;
+    width: 2px;
+}
+
+.junction1 {
+    background-color: #ffffff;
+    position: fixed;
+    top: 128px;
+    left: 37px;
+    width: 9.95px;
+    height: 9.85px;
+    transform: rotate(45deg);
+    z-index: 10;
+}
+
+.junction2 {
+    background-color: #ffffff;
+    position: fixed;
+    top: 128px;
+    left: 37px;
+    width: 9.95px;
+    height: 9.85px;
+    transform: rotate(45deg);
+    z-index: 10;
+}
+
+.junction3 {
+    background-color: #ffffff;
+    position: fixed;
+    top: 128px;
+    left: 37px;
+    width: 9.95px;
+    height: 9.85px;
+    transform: rotate(45deg);
+    z-index: 10;
+}
+
+.junction4 {
+    background-color: #ffffff;
+    position: fixed;
+    top: 128px;
+    left: 37px;
+    width: 9.95px;
+    height: 9.85px;
+    transform: rotate(45deg);
+    z-index: 10;
+}
+
+p  {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;   
+    margin-left: 58px; 
+    top: 0px;
+    margin-bottom: 5;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    z-index: 10;
+}
